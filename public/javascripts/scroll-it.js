@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-  $(window).click(function() {
-    console.log("Clicked");
+  $(window).scroll(function() {
+    $(".main-app-text").slideUp(2000);
   });
 });
