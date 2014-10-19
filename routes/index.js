@@ -5,4 +5,4 @@ app.get('/', function(req, res) {
   res.render('index', { title: 'RIDESHARE' });
 });
 
-require('./users')
+require('./users');
