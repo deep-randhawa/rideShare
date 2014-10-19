@@ -3,7 +3,7 @@
  */
 
 $(document).ready(function() {
-  $(window).scroll(function() {
-    $(".main-app-text").slideUp(2000);
+  $(window).scroll(function(event) {
+    $(".main-app-text").fadeOut(400);
   });
 });
