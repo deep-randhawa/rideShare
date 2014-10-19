@@ -1,3 +1,7 @@
+body {
+  background: url(../images/story-overview.jpg) center center fixed;
+}
+
 .app-overview {
   position: fixed;
   width: 100%;
@@ -6,7 +10,6 @@
   top: 0;
   display: table;
 
-  background: url(../images/story-overview.jpg) center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
